@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicios JavaScript | pt1</title>
+    <title>Contando...</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Vamos contar...</h1>
     </header>
 
     <section>
-        <div>
-            Testando...
+        <div id="info">
+            <p>&#x1f3f3 Inicio: <input type="number" name="inicio" id="txtinicio"></p>
+            <p> &#x1f3c1 Fim: <input type="number" name="fim" id="txtfim"></p>
+            <p>&#x1f9b6 Passo: <input type="number" name="passo" id="txtpasso"></p>
+            <p><input type="button" value="Contar" onclick="contar()"></p>
         </div>
 
-        <div>
-
+        <div id="result">
+            Preparando a contagem...
         </div>
     </section>
 

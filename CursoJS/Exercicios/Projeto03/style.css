@@ -1,6 +1,7 @@
 body {
     background-color: rgb(70, 142, 236);
     font: normal 15pt Arial;
+    font-style: italic;
 }
 
 header {
