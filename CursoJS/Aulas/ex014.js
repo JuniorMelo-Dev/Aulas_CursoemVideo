@@ -1,3 +1,5 @@
+/*
+
 //Estrutura de repetição com teste lógico no inicio
 
 var contador = 1
@@ -14,3 +16,13 @@ var contador = 1
         console.log('Eai, mais um?')
         contador++
     } while (contador <= 6)
+
+*/
+
+//Estrutura de repetição FOR
+
+console.log('Iniciando daqui!')
+for (var contador =1; contador <=4; contador++) {
+    console.log(contador)
+}
+console.log('Finaliza aqui!')
