@@ -1,2 +1,3 @@
-# CursoemVideo-Projeto-Google-Glass
-Participação das Aulas de HTML do Curso em Vídeo by Gustavo-Guanabara
+# Aulas_CursoemVideo
+
+## Importação dos cursos executados e em andamento
