@@ -9,10 +9,27 @@
 </head>
 <body>
       <h1>Imagens Flexíveis</h1>
+      <p>Nosso primeiro passo no caminho de adaptar nosso conteúdo ao tamanho da tela vai ser aprender a gerar imagens de tamanho diferentes e a fazer o navegador carregar a imagem certa para cada situação. Para isso, devemos conhecer as tags &lt;picture&gt; e &lt;source&gt;.</p>
       <picture>
             <source media="(max-width: 750px)" srcset="img-p.png" type="image/png">
             <source media="(max-width: 1050px)" srcset="img-m.png" type="image/png">
             <img src="img-g.png" alt="Imagem flexível">
       </picture>
+
+      <h1>Áudio no site</h1>
+      <p>O atributo preload indica se o áudio será pré-carregado ou não e aceita três valores: <br>
+      metadata =  vai carregar apenas as informações sobre o arquivo (tamanho, tempo, informações de direitos, etc) <br>
+      none =  não vai carregar absolutamente nada até que o usuário clique no botão. <br>
+      play ou um script inicie a reprodução. <br>
+      auto (padrão) vai carregar o arquivo de áudio inteiro assim que a página for carregada, mesmo que o usuário nunca aperte o play. <br>
+      O atributo controls vai apresentar o player na tela. Caso não seja colocado na tag &lt;audio&gt;, o controle será transparente e o usuário não poderá interagir com ele. <br>
+      O atributo autoplay, quando inserido, vai iniciar a reprodução do áudio assim que a página for carregada. <br>
+      O atributo loop vai fazer com que o áudio seja repetido eternamente assim que terminar a sua reprodução.</p>
+
+      <audio preload="metadata" controls>
+            <source src="Look Both Ways - Nathan Moore.mp3" type="audio/mpeg">
+            <p>Suporte  a outros navegadores <a href="Look Both Ways - Nathan Moore.mp3" download="Look Both Ways - Nathan Moore.mp3" type="audio/mpeg"></a></p>
+      </audio>
+      <p>Usualmente também usa-se os tipo de arquivo .ogg e .wav</p>
 </body>
 </html>
